@@ -6,7 +6,7 @@
 
 body {
     background-color: #f5f7fb;
-    font-family: "Karla", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 
@@ -58,6 +58,7 @@ main{
 .intro-button {
     cursor: pointer;
     border: none;
+    font-size: 1.2rem;
     padding: 1rem 2.8rem;
     border-radius: 1rem;
     background: #4d5b9e;
@@ -68,10 +69,18 @@ main{
     background: #2b335c;
 }
 
+.intro-title{
+    font-family: "Karla";
+    font-size: 3rem;
+}
+.intro-text{
+    font-size: 1.2rem;
+}
 .intro-title,
 .intro-text {
     color: #293264;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 /*Quizz Screen*/
@@ -114,6 +123,8 @@ div.quizz-container-question {
     margin-top: 1.2rem;
     margin-bottom: 1.5rem;
     width: 85%;
+    font-family: "Karla";
+    font-size: 1.6rem;
 }
 
 hr {

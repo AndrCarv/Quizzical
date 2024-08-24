@@ -167,12 +167,14 @@ export default function App (){
       {!isPlaying ? (
         <div className="intro-container">
           <div className="intro-display">
-            <h1 className="intro-title">Project4 Quizzical</h1>
-            <p className="intro-text">Press the button to start the game</p>
+            <h1 className="intro-title">Quizzical</h1>
+            <p className="intro-text">Time to test your knowledge.<br /><br />
+            Press the button to start the Quiz
+            </p>
             <button
               className="intro-button"
               onClick={startGame}>
-              Start
+              Start Quiz
             </button>
           </div>
         </div>
