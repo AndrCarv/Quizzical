@@ -102,7 +102,7 @@ export default function App (){
   //function to check the questions, and will act depending what was the selected answers
   //the styles will be applied in the Question Component
   function checkQuestions() {
-    setScore(0);
+    setScore(0);//this needs to be here, if not it, it sometimes autochecks on game restart
     setQuizData((prevData) =>
       prevData.map((data) => {
         let checkedAnswers = data.answers.map((answer) => {
