@@ -87,28 +87,6 @@ main{
 div.quizz-container-question {
     margin-right: 1.3rem;
 }
-/*answers*/
-.question-answers {
-    padding: .25rem 0.7rem .25rem 0.7rem;
-    margin: 0.7rem 1.2rem 0.7rem 0;
-    border: 1px solid #4d5b9e;
-    border-radius: 9px;
-    color: #293264;
-    background-color: white;
-    min-width: 5.6rem;
-    cursor: pointer;
-}
-
-/*check button*/
-.quizz-check {
-    border: none;
-    background-color: #4d5b9e;
-    color: #f5f7fb;
-    border-radius: .65rem;
-    padding: .8rem 1.5rem;
-    align-self: center;
-    cursor: pointer;
-}
 
 .quizz-container {
     padding: 2rem 2.5rem;
@@ -127,11 +105,34 @@ div.quizz-container-question {
     font-size: 1.6rem;
 }
 
+/*answers*/
+.question-answers {
+    padding: .25rem 0.7rem .25rem 0.7rem;
+    margin: 0.7rem 1.2rem 0.7rem 0;
+    border: 1px solid #4d5b9e;
+    border-radius: 9px;
+    color: #293264;
+    background-color: white;
+    min-width: 5.6rem;
+    cursor: pointer;
+}
+
 hr {
     margin-top: 0.4rem;
     background-color: #DBDEF0;
     height: 0.1px;
     width: 90%;
+}
+
+/*check button*/
+.quizz-button {
+    border: none;
+    background-color: #4d5b9e;
+    color: #f5f7fb;
+    border-radius: .65rem;
+    padding: .8rem 1.5rem;
+    align-self: center;
+    cursor: pointer;
 }
 
 .quizz-container-question {

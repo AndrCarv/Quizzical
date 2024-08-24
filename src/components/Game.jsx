@@ -29,7 +29,7 @@ export default function Game(props) {
             {!props.checkChoice ? (
                 <div className = "quizz-container-result">
                     <button
-                        className = "quizz-check"
+                        className = "quizz-button"
                         onClick = {() => props.checkQuestions()}
                     >Check Answers</button>
                 </div>
@@ -37,7 +37,7 @@ export default function Game(props) {
                 <div className = "quizz-container-result">
                     <h2>You scored {props.score}/5 correct answers</h2>
                     <button
-                        className = "quizz-check"
+                        className = "quizz-button"
                         onClick = {() => props.restartGame()}>
                         Play Again??
                     </button>

@@ -143,7 +143,7 @@ export default function App (){
     setIsPlaying(false);
     setScore(0);
     setCheckChoice(false);
-    setTimeout(() => startGame(), 0);
+    setTimeout(() => startGame(), 0); //resets timer and prevents the app from going to the intro page
   }
   
   //useEffects
