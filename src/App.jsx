@@ -40,7 +40,9 @@ export default function App (){
 
   /* 
   function to select the data to use
-  only need id (gonna use nano), question, wrongAnswer, answer, score 
+  only need id (gonna use nano), question, wrongAnswer, answer, score
+  leaving a correctAnswer to check the right answer and also inserting answer together with the wrong ones
+  to have a array, so i can render the 4 like the design in random order
   add he decode to fix the special characters
   */
   function quizDataFilter(dataArray){
@@ -163,7 +165,7 @@ export default function App (){
 //some classNames might be temporary, remenber to change after if needed
   return (
     <main>
-      <img class="blob-top" src="./src/assets/blob-top.png"/>
+      <img className="blob-top" src="./src/assets/blob-top.png"/>
       {!isPlaying ? (
         <div className="intro-container">
           <div className="intro-display">
@@ -194,7 +196,7 @@ export default function App (){
             restartGame = {restartGame}            
           />
         )}
-      <img class="blob-bottom" src="./src/assets/blob-bottom.png"/>
+      <img className="blob-bottom" src="./src/assets/blob-bottom.png"/>
     </main>
   )
 }
